@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+
+<body id="bg">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAPwp2wtoKxp4S7-uOkleiBgwbEIBVcCIg",
+            authDomain: "fooddeliveryapplication-b0e31.firebaseapp.com",
+            projectId: "fooddeliveryapplication-b0e31",
+            storageBucket: "fooddeliveryapplication-b0e31.appspot.com",
+            messagingSenderId: "631934381398",
+            appId: "1:631934381398:web:db3796ba1aa02d0decfaf7"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <nav class="navbar">
+        <div id="title" class="container-fluid">
+            <a id="titlefont" class="navbar-brand" href="#"><img src="images/logo.png" id="logo" alt="" height="35px"
+                    width="20px"> Food Cravers <span id="page">| Welcome</span></a>
+        </div>
+    </nav>
+    <center>
+        <section>
+            <div id="register">
+                <h1 id="tagline">Here to Eat, right???</h1>
+                <button id="orderbtn" type="button" class="btn btn-secondary btn-lg"
+                    onclick="window.location='userSignup.html'"><a class="signuplink" href="userSignup.html"> Order
+                        Now</a>
+                </button>
+                <h1 id="opt">OR</h1>
+                <button id="addbtn" type="button" class="btn btn-secondary btn-lg"
+                    onclick="window.location='restSignup.html'"><a class="signuplink" href="restSignup.html"> Add a
+                        Restaurant</button>
+            </div>
+        </section>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>

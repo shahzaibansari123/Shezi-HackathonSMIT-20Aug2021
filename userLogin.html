@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>User | Login</title>
+</head>
+
+<body id="bg">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAPwp2wtoKxp4S7-uOkleiBgwbEIBVcCIg",
+            authDomain: "fooddeliveryapplication-b0e31.firebaseapp.com",
+            projectId: "fooddeliveryapplication-b0e31",
+            storageBucket: "fooddeliveryapplication-b0e31.appspot.com",
+            messagingSenderId: "631934381398",
+            appId: "1:631934381398:web:db3796ba1aa02d0decfaf7"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <nav class="navbar">
+        <div id="title" class="container-fluid">
+            <a id="titlefont" class="navbar-brand" href="#"><img src="images/logo.png" id="logo" alt="" height="35px"
+                    width="20px"> Food Cravers <span id="page">| User Login</span></a>
+        </div>
+    </nav>
+
+    <section>
+        <div id="userLogin">
+            <h2 id="login_Heading">Log In</h2>
+            <form onSubmit="return false">
+                <div class="form-group" id="user_Inputs">
+                    <label id="user_inputs_Labels" for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group" id="user_Inputs">
+                    <label id="user_inputs_Labels" for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+
+                    <button id="login_Button" type="submit" class="btn " onClick="userLogIn()">Login</button>
+                    <button id="login_Link" type="button"><a id="link" href="restSignup.html">I DON'T HAVE
+                            AN ACCOUNT</a></button>
+                    <div id="loginmessage">
+                        <div class="alert alert-dark" role="alert" id="message"></div>
+                    </div>
+            </form>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>

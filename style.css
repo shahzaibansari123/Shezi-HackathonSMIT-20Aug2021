@@ -1,0 +1,1256 @@
+/* body{
+    font-family::cursive;
+} */
+
+#bg{
+    background-image: url('images/mainbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+#title{
+    background-color: #c43d3d;
+    margin-top: -1%;;
+}
+
+#page{
+    font-size: 24px;
+    font-family:cursive;
+}
+
+#titlefont{
+    color: rgb(224, 214, 123);
+    font-family:cursive;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#register{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    padding: 8%;
+    width:45%;
+    height: 200%;   
+}
+
+#tagline{
+    font-family:cursive;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: -15%;
+    color: rgb(224, 214, 123);
+}
+
+#orderbtn{
+    font-family:cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 8%;
+    width: 60%;
+    margin-bottom: 10%;
+    background-color: rgb(224, 214, 123);
+}
+
+#opt{
+    font-family:cursive;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(224, 214, 123);
+}
+
+#addbtn{
+    font-family:cursive;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(224, 214, 123);
+    margin-top: 8%;
+    width: 60%;
+    margin-bottom: -5%;
+}
+
+.signuplink{
+    text-decoration: none;
+    color: rgb(209, 75, 75);
+}
+
+/* -------------------------------------------------------- */
+/* user signup */
+/* restaurant signup */
+
+#title{
+    background-color: #c43d3d;
+    margin-top: -1%;;
+}
+
+#titlefont{
+    color: rgb(224, 214, 123);
+    font-family:cursive;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#signup_Heading{
+    margin-top: 2%;
+    font-size: 20px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: rgb(224, 214, 123);
+    font-weight: bolder;
+    text-align: center;
+    font-family:cursive;
+}
+
+#usersignup{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 1%;
+    width:35%;
+    height: 200%;   
+}
+
+#user_Inputs{
+    width: 70%;
+    margin: 0% 15%;
+    padding: 0.5%;    
+}
+
+#user_inputs_Labels{
+    color: rgb(224, 214, 123);
+    font-weight: bold;
+    font-size: 12px;
+    font-family:cursive;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(214, 210, 210) !important;
+    font-family:cursive;
+}
+
+#login_signup_Button{
+    background-color: rgb(224, 214, 123);
+    margin-top: 2%;
+    margin-left:16%;
+    width: 80px;
+    height: 30px;
+    color: #c43d3d;
+    font-size: 10px;
+    padding: 0px;
+    border-color: transparent;
+    font-family:cursive;
+}
+
+#login_signup_Link{
+    color: white;
+    width: 150px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: -10px;
+    border-color: transparent;
+    background-color: transparent;
+    font-family:cursive;
+}
+
+#login_signup_Link :hover{
+    color: white;
+}
+
+#link{
+    color: white;
+}
+
+#message{
+    height: 30px;
+    width: 70%;
+    margin-left: 15%;
+    color:white;
+    background-color: rgba(151, 151, 155, 0.678);
+    margin-top: 1%;
+    font-size: 10px;
+    padding: 0px;
+    font-family:cursive;
+}
+
+/* -------------------------------------------------------------- */
+/* user login */
+/* restaurant login */
+
+#login_Heading{
+    margin-top: 2%;
+    font-size: 20px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: rgb(224, 214, 123);
+    font-weight: bolder;
+    text-align: center;
+    font-family:cursive;
+}
+
+#userLogin{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 2%;
+    width:35%;
+    height: 20%;    
+}
+
+#login_Button{
+        background-color: rgb(224, 214, 123);
+        margin-top: 2%;
+        margin-left:1;
+        width: 80px;
+        height: 30px;
+        color: #c43d3d;
+        font-size: 10px;
+        padding: 0px;        
+        font-family:cursive;
+    }
+    
+#login_Link{
+        color: white;
+        width: 150px;
+        margin-top: 5px;
+        font-size: 8px;
+        margin-left: -10px;
+        border-color: transparent;
+    background-color: transparent;
+    font-family:cursive;
+    }
+
+#loginmessage{
+    margin-left: -21%;
+    width:142%;
+    height:200nvm;
+    margin-bottom: 18%;
+    font-size: 4px;
+    font-family:cursive;
+}
+
+/* ----------------------------------------------- */
+/* restaurantdashboard */
+/* userdashboard */
+
+#hdg{
+    color: rgb(224, 214, 123);
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: 96px;
+}
+
+ul{
+list-style-type: none; 
+margin-left: 3px;
+
+}
+li{
+    display: inline-flex;
+    margin: 2px 0px 30px 1px
+}
+
+#addform{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 5%;
+    width:35%;
+    height: 20%;    
+}
+
+#dashboard{
+    background-image: url(images/dashboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+#viewodr{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+}
+
+#logout{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+}
+
+#additm{
+    color:rgb(224, 214, 123);
+    font-weight:bolder ;
+    font-family:cursive;
+}
+
+#itemform{
+    margin-top: 60px;
+}
+
+#heading{
+    color: rgb(224, 214, 123);
+    font-family:cursive;
+}
+
+#itembtn{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+    margin-top: 8%;
+}
+
+#uploadbtn{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+    margin-top: 28%;
+    width: 100%;
+    text-align: left;
+}
+ 
+#prgs{
+    font-size: 8px;
+    font-family:cursive;
+}
+
+
+#additmmsg{
+    font-size: 38px;
+    width: 143%;
+    margin-top: 4%;
+    margin-left: -22%;
+    font-family:cursive;
+}
+
+#addmessage{
+    height: 30px;
+    width: 70%;
+    margin-left: 15%;
+    color:white;
+    background-color: rgba(151, 151, 155, 0.678);
+    margin-top: 1%;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    font-family:cursive;
+}
+
+                                    /* media query */
+
+
+
+                                    /* 375 */
+
+
+ @media only screen and (max-width: 480px) {
+                /* body{
+                    font-family::cursive;
+                } */
+                
+                #bg{
+                    background-image: url('images/mainbg.jpg');
+                    background-size: 200% 150%;
+                    background-repeat: no-repeat;
+                    background-position:top;
+                }
+            
+                #logo{
+                    height: 22px;
+                    margin-bottom: 2%;
+                }
+                
+                #title{
+                    background-color: #c43d3d;
+                    margin-top: -3%;
+                }
+                
+                #page{
+                    font-size: 12px;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #titlefont{
+                    color: rgb(224, 214, 123);
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 2%;
+                }
+                
+                #register{
+                    background-color: #c43d3d;
+                    border-radius: 50px;
+                    margin-top: 55%;
+                    margin-left: -28%;
+                    margin-right: -28%;
+                    margin-bottom: 8%;
+                    padding: 8%;
+                    width:80%;
+                    height: 200%;   
+                    
+                }
+                
+                #tagline{
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-top:4%;
+                    color: rgb(224, 214, 123);
+                }
+                
+                #orderbtn{
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    margin-top: 16%;
+                    width: 80%;
+                    margin-bottom: 10%;
+                    background-color: rgb(224, 214, 123);
+                }
+                
+                #opt{
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: rgb(224, 214, 123);
+                }
+                
+                #addbtn{
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    background-color: rgb(224, 214, 123);
+                    margin-top: 8%;
+                    width: 80%;
+                    margin-bottom: 10%;
+                }
+                
+                .signuplink{
+                    text-decoration: none;
+                    color: rgb(209, 75, 75);
+                }
+            
+                /* -------------------------------------------------------- */
+                /* user signup */
+                /* restaurant signup */
+            /* 
+                body{
+                    font-family::'Times New Roman', Times, serif;
+                } */
+                
+                /* #bg{
+                    background-image: url('images/mainbg.jpg');
+                    background-size: 400% 150%;
+                    background-repeat: no-repeat;
+                    background-position:top;
+                }
+            
+                #logo{
+                    height: 22px;
+                    margin-bottom: 2%;
+                }
+                
+                #title{
+                    background-color: #c43d3d;
+                    margin-top: -3%;
+                }
+                
+                #page{
+                    font-size: 11px;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #titlefont{
+                    color: rgb(224, 214, 123);
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-top: 2%;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                 */
+                
+                #signup_Heading{
+                    margin-top: 2%;
+                    font-size: 15px;
+                    text-decoration: rgba(255, 255, 255, 0.5);
+                    color: rgb(224, 214, 123);
+                    font-weight: bolder;
+                    text-align: center;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #usersignup{
+                    background-color: #c43d3d;
+                    border-radius: 50px;
+                    margin-top: 15%;
+                    margin-bottom: 4%;
+                    margin-left: 7%;
+                    margin-right: 7%;
+                    padding: -35%;
+                
+                    width:85%;
+                    height: 150%;   
+                }
+                
+                #user_Inputs{
+                    width: 100%;
+                    height: 14px;
+                    margin: -12% 0% 12% 0%;
+                    padding: 11%;    
+                    font-size: 6px;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #user_inputs_Labels{
+                    color: rgb(224, 214, 123);
+                    font-weight: bold;
+                    font-size: 12px;
+                    padding: 1%;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #emailHelp{
+                    font-size: 6px;
+                    color: rgb(214, 210, 210) !important;
+                    margin-bottom: -2%;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #login_signup_Button{
+                    background-color: rgb(224, 214, 123);
+                    margin-top: 1%;
+                    margin-left:12%;
+                    width: 80px;
+                    height: 20px;
+                    color: #c43d3d;
+                    font-size: 8px;
+                    padding: 0px;
+                    border-color: transparent;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #login_signup_Link{
+                    color: white;
+                    width: 150px;
+                    margin-top: 5px;
+                    font-size: 10px;
+                    margin-left: -10px;
+                    border-color: transparent;
+                    background-color: transparent;
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+                #login_signup_Link :hover{
+                    color: white;
+                }
+                
+                #link{
+                    color: white;
+                }
+                
+                #message{
+                    height: 20px;
+                    width: 80%;
+                    margin-left: 10%;
+                    color:white;
+                    background-color: rgba(151, 151, 155, 0.678);
+                    margin-top: 2%;
+                    font-size: 6px;
+                    padding: 0px;
+                    font-family:'Times New Roman', Times, serif;
+            
+                }
+            
+            /* -------------------------------------------------------------- */
+            /* user login */
+            /* restaurant login */
+            
+            #login_Heading{
+                margin-top: 10%;
+                font-size: 15px;
+                text-decoration: rgba(255, 255, 255, 0.5);
+                color: rgb(224, 214, 123);
+                font-weight: bolder;
+                text-align: center;
+                font-family:'Times New Roman', Times, serif;
+            }
+            
+            #userLogin{
+                background-color: #c43d3d;
+                border-radius: 50px;
+                margin-top: 42%;
+                margin-bottom: 1%;
+                margin-left: 7%;
+                margin-right: 7%;
+                padding: 1%;
+                width:85%;
+                height: 300px;    
+            }
+            
+            #login_Button{
+                    background-color: rgb(224, 214, 123);
+                    margin-top: -2%;
+                    margin-left:1%;
+                    width: 80px;
+                    height: 20px;
+                    color: #c43d3d;
+                    font-size: 8px;
+                    padding: 0px;        
+                    font-family:'Times New Roman', Times, serif;
+                }
+                
+            #login_Link{
+                    color: white;
+                    width: 150px;
+                    margin-top: 8%;
+                    font-size: 8px;
+                    margin-left: -10px;
+                    border-color: transparent;
+                background-color: transparent;
+                font-family:'Times New Roman', Times, serif;
+                }
+            
+            #loginmessage{
+                margin-left: -12%;
+                width:124%;
+                height:300nvm;
+                margin-top: 4%;
+                margin-bottom: 8%;
+                font-size: 2px;
+                padding: 0%;
+                font-family:'Times New Roman', Times, serif;
+            }
+            
+            /* ----------------------------------------------- */
+            /* restaurantdashboard */
+            /* userdashboard */
+            
+            #hdg{
+                color: rgb(224, 214, 123);
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bolder;
+                font-size: 96px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            
+            ul{
+            list-style-type: none; 
+            margin-left: 3px;
+            
+            }
+            li{
+                display: inline-flex;
+                margin: 2px 0px 30px 7px
+            }
+            
+            #addform{
+                background-color: #c43d3d;
+                border-radius: 50px;
+                margin-top: 0%;
+                margin-bottom: 1%;
+                margin-left: 33%;
+                margin-right: 25%;
+                padding: 5%;
+                width:35%;
+                height: 20%;    
+            }
+            
+            #dashboard{
+                background-image: url(images/newdashboard.jpg);
+                background-size: 500px 100% ;
+                background-repeat: no-repeat;
+                background-position:top;
+                
+                
+            }
+            
+            #viewodr{
+                background-color: rgb(224, 214, 123);
+                color: #c43d3d;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bolder;
+                border-color: #c43d3d;
+                width:100px;
+                height: 30px;
+                font-size: 12px;
+                padding: 0%;
+                margin-bottom: 5%;
+                text-align: center;
+            
+            
+            }
+            
+            #logout{
+                background-color: rgb(224, 214, 123);
+                color: #c43d3d;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bolder;
+                border-color: #c43d3d;
+                width:60px;
+                height: 30px;
+                font-size: 12px;
+                padding: 0%;
+                margin-bottom: 5%;
+            }
+            
+            #additm{
+                color:rgb(224, 214, 123);
+                font-weight:bolder ;
+                font-family:'Times New Roman', Times, serif;
+                font-size: 19px;
+                margin-top: 2px;
+                margin-bottom: -52px ;
+            }
+            
+            #itemform{
+                margin-top: -6px;
+                
+            }
+            
+            
+            #heading{
+                margin-top: 20px;
+                color: rgb(224, 214, 123);
+                font-family:'Times New Roman', Times, serif;
+                font-size: 24px;
+            }
+            
+            #itembtn{
+                background-color: rgb(224, 214, 123);
+                color: #c43d3d;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bolder;
+                border-color: #c43d3d;
+                margin-top: -1150%;
+                width: 1000%;
+                height: 40px;
+                text-align: left;
+                font-size: 16px;
+                align-items: center;
+                text-align: center;
+                display: inline-block;
+                margin-left: 1300%;
+                
+            }
+            
+            #uploadbtn{
+                background-color: rgb(224, 214, 123);
+                color: #c43d3d;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bolder;
+                border-color: #c43d3d;
+                margin-top: 28%;
+                width: 1000%;
+                height: 40px;
+                text-align: left;
+                font-size: 16px;
+                align-items: center;
+                text-align: center;
+                margin-left: 200%;
+            
+            }
+             
+            #prgs{
+                font-size: 8px;
+                display: inline;
+                width: 100px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            
+            
+            #additmmsg{
+                font-size: 38px;
+                width: 143%;
+                margin-top: 4%;
+                margin-left: -22%;
+                font-family:'Times New Roman', Times, serif;
+            }
+            
+            #addmessage{
+                height: 30px;
+                width: 310%;
+                margin-left: -5%;
+                color:white;
+                background-color: rgba(151, 151, 155, 0.678);
+                margin-top: 1%;
+                font-size: 16px;
+                padding: 0px;
+                text-align: center;
+                font-family:'Times New Roman', Times, serif;
+            }
+            
+            
+            }    
+
+
+
+
+@media only screen and (max-width: 360px) {
+    /* body{
+        font-family::cursive;
+    } */
+    
+    #bg{
+        background-image: url('images/mainbg.jpg');
+        background-size: 400% 150%;
+        background-repeat: no-repeat;
+        background-position:top;
+    }
+
+    #logo{
+        height: 22px;
+        margin-bottom: 2%;
+    }
+    
+    #title{
+        background-color: #c43d3d;
+        margin-top: -3%;
+    }
+    
+    #page{
+        font-size: 11px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #titlefont{
+        color: rgb(224, 214, 123);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 2%;
+    }
+    
+    #register{
+        background-color: #c43d3d;
+        border-radius: 50px;
+        margin-top: 34%;
+        margin-left: -28%;
+        margin-right: -28%;
+        margin-bottom: 18%;
+        padding: 8%;
+        width:80%;
+        height: 200%;   
+        
+    }
+    
+    #tagline{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top:4%;
+        color: rgb(224, 214, 123);
+    }
+    
+    #orderbtn{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 16%;
+        width: 80%;
+        margin-bottom: 10%;
+        background-color: rgb(224, 214, 123);
+    }
+    
+    #opt{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(224, 214, 123);
+    }
+    
+    #addbtn{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: rgb(224, 214, 123);
+        margin-top: 8%;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    
+    .signuplink{
+        text-decoration: none;
+        color: rgb(209, 75, 75);
+    }
+
+    /* -------------------------------------------------------- */
+    /* user signup */
+    /* restaurant signup */
+/* 
+    body{
+        font-family::'Times New Roman', Times, serif;
+    } */
+    
+    #bg{
+        background-image: url('images/mainbg.jpg');
+        background-size: 400% 150%;
+        background-repeat: no-repeat;
+        background-position:top;
+    }
+
+    #logo{
+        height: 22px;
+        margin-bottom: 2%;
+    }
+    
+    #title{
+        background-color: #c43d3d;
+        margin-top: -3%;
+    }
+    
+    #page{
+        font-size: 11px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #titlefont{
+        color: rgb(224, 214, 123);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 2%;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    
+    #signup_Heading{
+        margin-top: 2%;
+        font-size: 15px;
+        text-decoration: rgba(255, 255, 255, 0.5);
+        color: rgb(224, 214, 123);
+        font-weight: bolder;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #usersignup{
+        background-color: #c43d3d;
+        border-radius: 50px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        margin-left: 7%;
+        margin-right: 7%;
+        padding: -35%;
+    
+        width:85%;
+        height: 150%;   
+    }
+    
+    #user_Inputs{
+        width: 100%;
+        height: 14px;
+        margin: -12% 0% 12% 0%;
+        padding: 11%;    
+        font-size: 6px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #user_inputs_Labels{
+        color: rgb(224, 214, 123);
+        font-weight: bold;
+        font-size: 12px;
+        padding: 1%;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #emailHelp{
+        font-size: 6px;
+        color: rgb(214, 210, 210) !important;
+        margin-bottom: -2%;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #login_signup_Button{
+        background-color: rgb(224, 214, 123);
+        margin-top: 1%;
+        margin-left:12%;
+        width: 80px;
+        height: 20px;
+        color: #c43d3d;
+        font-size: 8px;
+        padding: 0px;
+        border-color: transparent;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #login_signup_Link{
+        color: white;
+        width: 150px;
+        margin-top: 5px;
+        font-size: 10px;
+        margin-left: -10px;
+        border-color: transparent;
+        background-color: transparent;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    #login_signup_Link :hover{
+        color: white;
+    }
+    
+    #link{
+        color: white;
+    }
+    
+    #message{
+        height: 20px;
+        width: 80%;
+        margin-left: 10%;
+        color:white;
+        background-color: rgba(151, 151, 155, 0.678);
+        margin-top: 2%;
+        font-size: 6px;
+        padding: 0px;
+        font-family:'Times New Roman', Times, serif;
+
+    }
+
+/* -------------------------------------------------------------- */
+/* user login */
+/* restaurant login */
+
+#login_Heading{
+    margin-top: 10%;
+    font-size: 15px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: rgb(224, 214, 123);
+    font-weight: bolder;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#userLogin{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 36%;
+    margin-bottom: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1%;
+    width:85%;
+    height: 300px;    
+}
+
+#login_Button{
+        background-color: rgb(224, 214, 123);
+        margin-top: -2%;
+        margin-left:1%;
+        width: 80px;
+        height: 20px;
+        color: #c43d3d;
+        font-size: 8px;
+        padding: 0px;        
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+#login_Link{
+        color: white;
+        width: 150px;
+        margin-top: 8%;
+        font-size: 8px;
+        margin-left: -10px;
+        border-color: transparent;
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    }
+
+#loginmessage{
+    margin-left: -12%;
+    width:124%;
+    height:300nvm;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    font-size: 2px;
+    padding: 0%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* ----------------------------------------------- */
+/* restaurantdashboard */
+/* userdashboard */
+
+#hdg{
+    color: rgb(224, 214, 123);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 96px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul{
+list-style-type: none; 
+margin-left: 3px;
+
+}
+li{
+    display: inline-flex;
+    margin: 2px 0px 30px 1px
+}
+
+#addform{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 5%;
+    width:35%;
+    height: 20%;    
+}
+
+#dashboard{
+    background-image: url(images/newdashboard.jpg);
+    background-size: 500px 100% ;
+    background-repeat: no-repeat;
+    background-position:top;
+    
+    
+}
+
+#viewodr{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-color: #c43d3d;
+    width:100px;
+    height: 30px;
+    font-size: 12px;
+    padding: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+
+
+}
+
+#logout{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-color: #c43d3d;
+    width:60px;
+    height: 30px;
+    font-size: 12px;
+    padding: 0%;
+    margin-bottom: 5%;
+}
+
+#additm{
+    color:rgb(224, 214, 123);
+    font-weight:bolder ;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin-top: 2px;
+    margin-bottom: -52px ;
+}
+
+#itemform{
+    margin-top: -6px;
+    
+}
+
+
+#heading{
+    margin-top: 20px;
+    color: rgb(224, 214, 123);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#itembtn{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-color: #c43d3d;
+    margin-top: -1250%;
+    width: 1000%;
+    height: 40px;
+    text-align: left;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1300%;
+    
+}
+
+#uploadbtn{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-color: #c43d3d;
+    margin-top: 28%;
+    width: 1000%;
+    height: 40px;
+    text-align: left;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    margin-left: 200%;
+
+}
+ 
+#prgs{
+    font-size: 8px;
+    display: inline;
+    width: 100px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+#additmmsg{
+    font-size: 38px;
+    width: 143%;
+    margin-top: 4%;
+    margin-left: -22%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#addmessage{
+    height: 30px;
+    width: 310%;
+    margin-left: -5%;
+    color:white;
+    background-color: rgba(151, 151, 155, 0.678);
+    margin-top: 1%;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+}    
+
+
+
+
+
+
+
+
+
+           
